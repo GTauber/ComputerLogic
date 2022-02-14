@@ -1,0 +1,6 @@
+
+M
+java:S6126"2Replace this String concatenation with Text block.(Õ¸ÇÃýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ãÚ·Ñúÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
