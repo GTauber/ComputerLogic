@@ -30,7 +30,7 @@ public class main {
 
         System.out.println("Student: " + student.getName() + " " + student.getLastName() +
                 "from the course " + student.getCourse() + " And his is ");
-        System.out.println(student.getApproved() ? "Approved!!" : "");
+        System.out.println(student.getApproved() ? "Approved!!" : "Reproved");
 
     }
 }
