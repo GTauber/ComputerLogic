@@ -1,11 +1,10 @@
 package com.week3and4.tauber.main;
 
-import com.week3and4.tauber.model.People;
 import com.week3and4.tauber.model.Student;
 
 import javax.swing.*;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Student student = new Student();
         student.setName(JOptionPane.showInputDialog(null, "What is your\n" +
@@ -25,8 +24,7 @@ public class main {
         student.setMedia(((Integer)student.getExams().get(0) + (Integer)student.getExams().get(1)
         + (Integer)student.getExams().get(2) + (Integer)student.getExams().get(3)) / 2);
 
-        if(student.getMedia() >= 70) student.setApproved(true);
-        else student.setApproved(false);
+        student.setApproved(student.getMedia() >= 70);
 
         System.out.println("Student: " + student.getName() + " " + student.getLastName() +
                 "from the course " + student.getCourse() + " And his is ");
